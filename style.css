@@ -1,0 +1,47 @@
+.transpbox{
+    background-color: #000;
+    border: none;
+    opacity: 0.5;
+}
+#imagen_texto{
+    border: none;
+    border-radius: 0%;
+
+}
+
+#comprar{
+    color: white;
+    background-color: rgb(50, 194, 50);
+}
+
+.card-text{
+    margin-top: 20px;
+}
+
+.subrayado{
+    text-decoration-style: dotted;
+}
+
+#totales{
+    color: blue;
+}
+
+
+#formButton, #formSummary, #formErase{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(150, 194, 29);
+}
+
+#formSummary, #formErase{
+    width: 48.5%;
+}
+
+
+#footer {
+    background: linear-gradient(to right, #023047, #023047, #005f73);
+}
+
+.option, .discount{
+    font-weight: bold;
+}
