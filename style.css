@@ -8,6 +8,10 @@
     border-radius: 0%;
 
 }
+.carousel-item img {
+    filter: brightness(0.7); /* Cambia el valor para ajustar la opacidad */
+  }
+  
 
 #comprar{
     color: white;
@@ -40,6 +44,7 @@
 
 #footer {
     background: linear-gradient(to right, #023047, #023047, #005f73);
+    width: 100%;
 }
 
 .option, .discount{
