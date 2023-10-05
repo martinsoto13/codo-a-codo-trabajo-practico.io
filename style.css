@@ -21,6 +21,12 @@
 .card-text{
     margin-top: 20px;
 }
+.image-txt {
+    z-index: 1;
+    position: relative;
+    margin-top: 8%;
+    padding-right: 5%;
+}
 
 .subrayado{
     text-decoration-style: dotted;
@@ -50,5 +56,30 @@
 .option, .discount{
     font-weight: bold;
 }
-
+/* Tamaño de fuente base */
+body {
+    font-size: 16px;
+  }
+  
+  /* Cambiar el tamaño de fuente en dispositivos móviles */
+  @media (max-width: 576px) {
+    body {
+      font-size: 11px;
+    }
+  }
+  
+  /* Cambiar el tamaño de fuente en tabletas */
+  @media (min-width: 577px) and (max-width: 768px) {
+    body {
+      font-size: 15px;
+    }
+  }
+  
+  /* Cambiar el tamaño de fuente en pantallas más grandes */
+  @media (min-width: 769px) {
+    body {
+      font-size: 20px;
+    }
+  }
+  
   
